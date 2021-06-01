@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         int numero = new Random().nextInt(11);
 
-        texto.setText("Número: " + numero);
+        texto.setText("Número sorteado: " + numero);
 
     }
 }
